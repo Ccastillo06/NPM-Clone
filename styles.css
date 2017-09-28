@@ -182,45 +182,53 @@ header {
 
 .first {
   max-width: 100%;
-  padding: 120px;
+  padding-top: 100px;
+  padding-bottom: 120px;
+  padding-left: 120px;
   background-color: rgb(39, 53, 71);
 }
 
 .col-2 {
-  width: 45%;
+  width: 50%;
   display: inline-block;
 }
 
-.col-2 img {
-  width: 90%;
+.col-21 {
+  width: 40%;
+  display: inline-block;
+  padding-left: 30px;
 }
 
-.col-2 h2 {
+.col-2 img {
+  width: 95%;
+}
+
+.col-21 h2 {
   font-size: 36px;
   color: white;
   font-weight: 300;
   margin-bottom: 10px;
 }
 
-.col-2 li, p {
+.col-21 li, p {
   font-size: 16px;
   color: white;
   margin-bottom: 10px;
   padding-bottom: 20px;
 }
 
-.col-2 ul {
+.col-21 ul {
   padding-left: 20px;
 }
 
-.col-2 a {
+.col-21 a {
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
   color: white;
 }
 
-.col-2 button {
+.col-21 button {
   background-color: rgb(172, 46, 45);
   color: white;
   border-radius: 20px;
