@@ -1,0 +1,325 @@
+
+body {
+  font-family: "Open Sans","OpenSans",sans-serif;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 15px 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.heart {
+  padding-right: 20px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-left {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+  text-align: center;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header {
+  max-width: 100%;
+  font-size: 1em;
+  background-color: rgb(36, 91, 123);
+  padding: 0;
+  margin: 0;
+}
+
+.upper-header {
+  max-width: 100%;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.col-10 {
+  max-width: 10%;
+  margin-right: 10px;
+  display: inline;
+  float:left;
+}
+
+.col-10 img {
+  width: 95%;
+  height: auto;
+}
+
+.col-75 {
+  width: 75%;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+}
+
+.col-75 input {
+  font-size: 1em;
+  width: 90%;
+  background-color: rgb(31, 82, 111);
+  padding: 15px 10px;
+  border-color: rgba(255,255,255,0.2);
+  border-width: 1px;
+  border-style: solid;
+  color: rgba(255,255,255,0.8);
+  }
+
+.col-75 button {
+  font-size: 1em;
+  width: 5%;
+  background-color: rgb(31, 82, 111);
+  padding: 15px 0px;
+  border-color: rgba(255,255,255,0.2);
+  border-width: 1px;
+  border-style: solid;
+  color: rgba(255,255,255,0.8);
+}
+
+.col-75 svg{
+  width: auto;
+  height: 18px;
+  padding: 0;
+  margin: 0;
+  vertical-align: top;
+}
+
+.col-102 {
+  max-width: 10%;
+  float: left;
+  display: inline-block;
+}
+
+.col-102 p{
+  color: rgba(255,255,255,0.8);
+}
+
+.col-102 a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.col-102 img{
+  width: 10%;
+  height: auto;
+  float:right;
+}
+
+.bear {
+  display: inline-block;
+  float:left;
+  margin-left:8px;
+  margin-top: 5px;
+}
+
+.bear img{
+  width: 40px;
+  height: auto;
+}
+
+.back-header{
+  padding: 90px 20px 80px 30px;
+  background-image: url(images/city-scape.svg);
+  max-width: 100%;
+
+}
+
+.bottom-header {
+  width: 50%;
+  padding-left: 100px;
+  color: white;
+}
+
+.bottom-header h1 {
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.bottom-header p {
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.bottom-header button {
+  margin-top: 10px;
+  display: inline-block;
+  background-color: rgb(240, 146, 51);
+  border-radius: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  font-size: 17px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  padding: 8px 26px 8px 26px;
+  vertical-align: middle;
+}
+
+.first {
+  max-width: 100%;
+  padding: 120px;
+  background-color: rgb(39, 53, 71);
+}
+
+.col-2 {
+  width: 45%;
+  display: inline-block;
+}
+
+.col-2 img {
+  width: 90%;
+}
+
+.col-2 h2 {
+  font-size: 36px;
+  color: white;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.col-2 li, p {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+.col-2 ul {
+  padding-left: 20px;
+}
+
+.col-2 a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.col-2 button {
+  background-color: rgb(172, 46, 45);
+  color: white;
+  border-radius: 20px;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 1px;
+  border-style: solid;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 8px 26px;
+}
+
+.second {
+  background-image: url(images/forklift.svg);
+  background-size: contain;
+  background-position: 50% 0;
+  padding: 60px 20px 180px 20px;
+}
+
+.position {
+  margin: 40px 50px 20px 0px;
+  padding: 0 100px;
+}
+
+.second h2 {
+    font-size: 36px;
+    color: white;
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+.second p {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 10px;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+.second button {
+  background-color: rgb(40, 56, 72);
+  color: white;
+  border-radius: 20px;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 1px;
+  border-style: solid;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 8px 26px;
+}
+
+.third {
+  padding: 40px 10px;
+}
+
+.third h2 {
+  color: rgb(55, 61, 72);
+  font-size: 36px;
+  font-weight: 300;
+  margin: 20px 0;
+  padding: 4px 0;
+  text-align: center;
+}
+
+.third p {
+  color: rgb(109, 121, 134);
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.third h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(55, 61, 72);
+  margin: 10px 0;
+  text-align: center;
+}
+
+.third a {
+  color: rgb(209, 80, 79);
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.third a:hover {
+  text-decoration: underline;
+}
+
+.col-3 {
+  width: 20%;
+  float: left;
+  padding: 20px;
+  margin-left: 100px;
+}
+
+.col-3 img {
+  display: block;
+  margin: auto;
+}
